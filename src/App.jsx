@@ -25,7 +25,7 @@ function App() {
       <h1>GALLETA DE LA FORTUNA</h1>
       <div className='content'>
       <PhrasesCard phraseRandom={phraseRandom}/>
-      <img  className='quotes' src="../public/images/comillas.svg" alt="comillas" />
+      <img  className='quotes' src="../public/images/quote-alt-right-solid-24.png" alt="comillas" />
       </div>
       <ButtonPhrase 
       setPhraseRandom={setPhraseRandom} 

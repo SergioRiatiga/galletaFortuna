@@ -47,7 +47,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: background-image 0.5s;
+  transition: background-image 1s;
 }
 
 .content {
@@ -74,10 +74,10 @@ a {
 
 .quotes {
   position: absolute;
-  align-self: flex-end;
-  top: 6.5em;
   opacity: 0.3;
-  height:2.5em;
+  right: 1em;
+  bottom: 3.9em;
+  transform: scale(0.7);
 }
 
 .contactInfo {
@@ -97,7 +97,7 @@ a {
   }
 
   .quotes {
-    top: 7.2em;
-    height:3em;
+    bottom: 2.5em;
+    transform: scale(1);
   }
 }
