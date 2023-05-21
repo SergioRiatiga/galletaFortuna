@@ -8,6 +8,12 @@
   color: #00000080;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 h1 {
   color: #fff;
@@ -51,6 +57,13 @@ a {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
   background-image: url('/images/rectangle1.svg');
   background-position: center;
   background-size:contain;
@@ -74,7 +87,7 @@ a {
 
 .quotes {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.2;
   right: 1em;
   bottom: 3.9em;
   transform: scale(0.7);
