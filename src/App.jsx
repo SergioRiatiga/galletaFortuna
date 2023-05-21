@@ -27,7 +27,7 @@ function App() {
       <section className='content'>
         <div className='text'>
         <PhrasesCard phraseRandom={phraseRandom}/>
-        <img  className='quotes' src="../public/images/quote-alt-right-solid-24.png" alt="comillas" />
+        <img  className='quotes' src="../images/quote-alt-right-solid-24.png" alt="comillas" />
         </div>
         <div>
         <ButtonPhrase 
